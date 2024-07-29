@@ -18,20 +18,21 @@ description: "Welcome to Evefan documentation 🚀"
 
 The first step to world-class documentation is setting up your editing environments.
 
-<CardGroup cols={2}>
+<CardGroup cols={1} style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
   <Card
-    title="Edit Your Docs"
-    icon="fa-solid fa-cross"
+    title="Sign Up"
+    icon="cross"
     href="https://mintlify.com/docs/quickstart"
+    style={{
+      flex: 1,
+      margin: '10px',
+      padding: '20px',
+      border: '1px solid #ddd',
+      borderRadius: '5px',
+      boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+    }}
   >
     Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
   </Card>
 </CardGroup>
 
